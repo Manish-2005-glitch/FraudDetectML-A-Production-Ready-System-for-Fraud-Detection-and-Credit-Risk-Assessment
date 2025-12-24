@@ -5,9 +5,7 @@ import numpy as np
 from pathlib import Path
 
 
-PROJECT_ROOT = Path(
-    r"C:\Users\LAPTOP\Desktop\coding\fraud detection project"
-)
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 MODEL_DIR = PROJECT_ROOT / "backend" / "model"
 
