@@ -126,23 +126,10 @@ Response:
 
 🧩 ML Engineering Highlights
 
-Imbalanced classification handling
-Threshold tuning for business-critical metrics
-Explainable AI for regulatory transparency
-Modular design for scalability
-Production-ready inference via API
-Drift monitoring for long-term reliability
+- ✅Imbalanced classification handling
+- ✅Threshold tuning for business-critical metrics
+- ✅Explainable AI for regulatory transparency
+- ✅Modular design for scalability
+- ✅Production-ready inference via API
+- ✅Drift monitoring for long-term reliability
 
-🧰 Tech Stack
-Machine Learning & Data
-Python
-NumPy, Pandas
-Scikit-learn
-SHAP
-Backend & Deployment
-FastAPI / Flask
-REST APIs
-Joblib
-Monitoring & Evaluation
-Precision-Recall analysis
-Drift detection utilities
