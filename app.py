@@ -1,11 +1,15 @@
 import streamlit as st
 import requests
 import numpy as np
+import os
 
 import streamlit as st
 import requests
 
-BACKEND_URL = "https://frauddetectml-a-production-ready-system.onrender.com"
+BACKEND_URL = os.getenv(
+    "BACKEND_URL",
+    "http://127.0.0.1:8000/predict"
+)
 
 st.set_page_config(page_title="Fraud Detection", layout="centered")
 
